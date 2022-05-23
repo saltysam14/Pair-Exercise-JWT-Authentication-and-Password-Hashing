@@ -5,22 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon server"
-
+    "start:dev": "JWT=somekeyhere nodemon server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saltysam14/Pair-Exercise-JWT-Authentication-and-Password-Hashing.git"
+    "url": "git+https://github.com/kparki1130/Pair-Exercise-JWT-Authentication-and-Password-Hashing.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saltysam14/Pair-Exercise-JWT-Authentication-and-Password-Hashing/issues"
+    "url": "https://github.com/kparki1130/Pair-Exercise-JWT-Authentication-and-Password-Hashing/issues"
   },
-  "homepage": "https://github.com/saltysam14/Pair-Exercise-JWT-Authentication-and-Password-Hashing#readme",
+  "homepage": "https://github.com/kparki1130/Pair-Exercise-JWT-Authentication-and-Password-Hashing#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.3",
     "sequelize": "^6.20.0"
   },
